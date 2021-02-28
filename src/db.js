@@ -45,13 +45,13 @@ db.delete = function(id) {
 export { db, useDB }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCxnHdHGicbw16DmQfEbNVy7XD6ENprVNQ",
-    authDomain: "chatter2021-2b8fb.firebaseapp.com",
-    projectId: "chatter2021-2b8fb",
-    storageBucket: "chatter2021-2b8fb.appspot.com",
-    messagingSenderId: "778098356347",
-    appId: "1:778098356347:web:c396b31d7a0a5c0c6c32de"
-};
+    apiKey: "AIzaSyDCAP5A0Ws6iLzk10LzGeTkzm1npaITJj8",
+    authDomain: "chatting-app-341b6.firebaseapp.com",
+    projectId: "chatting-app-341b6",
+    storageBucket: "chatting-app-341b6.appspot.com",
+    messagingSenderId: "928683286610",
+    appId: "1:928683286610:web:1a62e786914deb480cff8b"
+  };
 
 firebase.initializeApp(firebaseConfig)
 store = firebase.firestore()
